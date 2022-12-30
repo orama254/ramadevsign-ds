@@ -1,0 +1,14 @@
+{
+  "name": "@ramadevsign-ds/foundation",
+  "packageManager": "yarn@3.3.1",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "devDependencies": {
+    "style-dictionary": "^3.7.1",
+    "typescript": "^4.9.4"
+  },
+  "scripts": {
+    "build-tokens": "style-dictionary build --config sd.config.js",
+    "build": "yarn build-style-dictionary && tsc"
+  }
+}

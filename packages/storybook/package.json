@@ -1,0 +1,12 @@
+{
+  "name": "@ramadevsign-ds/storybook",
+  "packageManager": "yarn@3.3.1",
+  "private": true,
+  "dependencies": {
+    "@ramadevsign-ds/foundation": "workspace:^",
+    "@ramadevsign-ds/react-fe": "workspace:^"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.4"
+  }
+}
