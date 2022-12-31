@@ -1,0 +1,10 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": "./stories",
+    "downlevelIteration": true,
+    "target": "es3",
+    "jsx": "react-jsx"
+  },
+  "include": ["./stories"]
+}
