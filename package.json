@@ -9,6 +9,7 @@
     "lint": "eslint --ignore-path .gitignore --quiet --no-error-on-unmatched-pattern packages/**/*{js,jsx,ts,tsx}"
   },
   "devDependencies": {
+    "@changesets/cli": "^2.26.0",
     "@typescript-eslint/eslint-plugin": "^5.47.1",
     "@typescript-eslint/parser": "^5.47.1",
     "eslint": "^8.30.0",
