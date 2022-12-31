@@ -9,6 +9,7 @@
   },
   "scripts": {
     "build-tokens": "style-dictionary build --config sd.config.js",
-    "build": "yarn build-style-dictionary && tsc"
+    "build": "yarn build-tokens && tsc",
+    "build-tsc": "tsc --skipLibCheck"
   }
 }
